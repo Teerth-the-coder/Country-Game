@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Game Improved</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <div class="top-content">
+            <h1 class="title">Country Game</h1>
+            <div class="images-heart-lives">
+                <img src="retroHeart2.jpg" height="75px" width="75px" id="heart1">
+                <img src="retroHeart2.jpg" height="75px" width="75px" id="heart2">
+                <img src="retroHeart2.jpg" height="75px" width="75px" id="heart3">
+                <img src="retroHeart2.jpg" height="75px" width="75px" id="heart4">
+                <img src="retroHeart2.jpg" height="75px" width="75px" id="heart5">
+            </div>
+            <div class="timer">
+                <i class="fa-solid fa-stopwatch" id="icon" style="color: #B197FC;"></i>
+                <p id="timerP"></p>
+            </div>
+        </div>
+        <div class="main-content">
+            <img src="world map.png" height="225" width="300" id="flag">
+            <div class="info-div">
+                <p id="incorrect-guesses">Incorrect Guesses:</p>
+                <p id="correct-guesses">Correct Guesses:</p>
+                <p id="score">Score:</p>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="btns-div">
+                <button id="btn1" disabled class="btn">Lorem Ipsum</button>
+                <button id="btn2" disabled class="btn">Lorem Ipsum</button>
+                <button id="btn3" disabled class="btn">Lorem Ipsum</button>
+            </div>
+            <div class="btns-playing-div">
+                <button id="startBtn">Start Game</button>
+                <button id="endBtn">End Game</button>
+            </div>
+        </div>
+        <h2 id="eval"></h2>
+    </div>
+
+    <div class="settings-main">
+        <h2 class="settings_title">Settings</h2>
+        <div class="btns_settings_div">
+            <button id="timerModeBtn" class="settings_btn">Timer Mode</button>
+            <br>
+            <br>
+            <button id="livesModeBtn" class="settings_btn">Lives Mode</button>
+            <br>
+            <br>
+            <button id="resetModeBtn" class="settings_btn">Reset Modes</button>
+            <br>
+            <br>
+            <p id="hintStop"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2efb538a76.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
